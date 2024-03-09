@@ -1,0 +1,50 @@
+.logo {
+  height: 200px;
+}
+
+.backVideo {
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
+}
+
+.login-container {
+  z-index: 10;
+  position: absolute;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+
+.input-container input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+#incorrect_data_text {
+  color: red;
+}

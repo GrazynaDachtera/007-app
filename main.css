@@ -1,0 +1,20 @@
+body {
+  background-image: url("./pictures/background\ \(1\).jpg");
+  color: ghostwhite;
+  background-repeat: no-repeat;
+}
+
+main {
+  text-align: center;
+}
+
+.single_section {
+  background-color: rgba(0, 0, 0, 0.678);
+  padding: 15px;
+}
+
+#logout {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}

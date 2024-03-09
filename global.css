@@ -1,0 +1,36 @@
+.logo {
+  height: 200px;
+}
+
+body {
+  margin: 0;
+}
+
+.input-container input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.submit {
+  font-family: "Special Elite", system-ui;
+  background-color: rgba(18, 115, 25, 0.5);
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.submit:hover {
+  padding: 16px;
+  transition: 0.6s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
