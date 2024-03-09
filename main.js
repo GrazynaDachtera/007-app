@@ -11,6 +11,15 @@ const $countryPopulation = document.getElementById("country_population");
 const $countryCapital = document.getElementById("country_capital");
 const $countryFlag = document.getElementById("country_flag");
 
+const $homepage = document.getElementById("homepage");
+const $tasksPage = document.getElementById("tasks_page");
+const $switchScreen = document.getElementById("switch_screen");
+
+$switchScreen.addEventListener("click", () => {
+  $homepage.classList.toggle("hidden");
+  $tasksPage.classList.toggle("hidden");
+});
+
 $logoutBtn.addEventListener("click", () => {
   localStorage.setItem("isLogged", "nie");
   window.location.href = "index.html";
